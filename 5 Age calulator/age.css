@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    /* font-size: 1px; */
+}
+body{
+    background-image:url("https://img.freepik.com/free-photo/wooden-shelf-tropical-forest-product-presentation-dark-green-background_41470-5139.jpg?w=740&t=st=1718362333~exp=1718362933~hmac=ad1f75935031042746bde8262b2efccb60390598eeb81e1679804f0a19c2f8fb");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    
+}
+.box{
+    width: 600px;
+    height: 300px;
+    /* border:2px solid black; */
+    padding: 30px;
+    /* background-image: url("https://img.freepik.com/free-photo/lone-tree_181624-46361.jpg"); */
+    text-align: center;
+    box-shadow:8px 8px 11px pink;
+    border-radius:8%;
+    /* background-color: rgb(11, 77, 152); */
+   /* background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00MjgtMDAzMC1rczA0dXNjcy5qcGc.jpg"); */
+   background-image: url('https://img.freepik.com/premium-photo/abstract-background-with-multicolored-crumpled-silk-satin_956363-18965.jpg?w=740');
+ 
+}
+input{
+    border-radius: 5px;
+    border: none;
+    padding:10px;
+}
+h1{
+    color:rgb(10, 6, 8);
+    font-weight: bold;
+}
+input[type="button"]{
+    background-color: aqua;
+    /* padding: 20px; */
+    font-size: 22px;
+    margin-top: 20px;
+}
+label{
+    color: rgb(3, 3, 14);
+    font-size: 22px;
+    font-weight: bold;
+}
+button{
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

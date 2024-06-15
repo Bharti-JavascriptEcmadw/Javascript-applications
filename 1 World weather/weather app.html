@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="weather.css">
+  <script src="weather.js"></script>
+  
+</head>
+<body onload="getData()">
+    
+    <div class="main">
+              <input id="search" type="text" onchange="getData()" value="raipur">
+       
+        <div class="section">
+           <h1 id="temp">14 <sup>0</sup></h1>
+           <p>Clecius</p>
+            <p>
+                Wind  speed: <span id="th">20</span>
+            </p>
+            <p>
+                Humidity: <span id="h">20</span>
+            </p>
+            
+            
+        </div>
+        <div class="imgg"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrrUmoBEho0LbUzHd7Dne426L3hZsdTEoTUkSPx9ZFBGcRguSQEPTNrSdN9CPoJ2KpVoI&usqp=CAU" alt=""></div>
+    </div>
+    
+    <script src="weather.js"></script>
+</body>
+</html>
