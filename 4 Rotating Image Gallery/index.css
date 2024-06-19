@@ -1,0 +1,103 @@
+ *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(2, 4, 4);
+    height:100vh;
+}
+ .image-container{
+    position: relative;
+    top:0px;
+    left:0%;
+    width:200px;
+    margin:auto;
+     /* border:2px solid red; */
+    height:200px;
+    
+    transform-style: preserve-3d;
+    transform: perspective(3200px) rotateY(180deg);
+    /* background-color: red; */
+    background-image: url('https://images.pexels.com/photos/2026960/pexels-photo-2026960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    border-radius: 20%;
+  animation:animate 55s  linear infinite;
+
+
+}
+
+@keyframes animate {
+    0%{
+        transform: perspective(1600px)
+        rotateY(0deg);
+    
+
+    }
+    100%{
+        transform: perspective(1600px)
+        rotateY(360deg);
+    }
+    
+}
+.image-container span:hover img{
+    /* transform: rotate(360deg); */
+    transform:scale(80%);
+    border-radius: 50%;
+    /* height: 40%; */
+    width: 100%;
+    transition:1s;
+    /* transform: rotateY(calc( var(--i)*0deg)) translateZ(500px); */
+
+    
+    
+}  
+.image-container span{
+    position: absolute;
+    width:270px;
+    height:70vh;
+    border-radius: 10%;
+    /* top:194px; */
+    left:0;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc( var(--i)*45deg)) translateZ(555px);
+    text-align: center;
+}
+.image-container span img{
+    position: absolute;
+    top:0;
+    left:0;
+    object-fit:cover;
+    width:100%;
+    border-radius: 10%;
+    height:30vh;
+ 
+}
+.btn-container{
+    position: relative;
+    width: 80absolute;
+    justify-content: space-between;
+
+}
+.btn{
+    position:absolute;
+    bottom:-80px;
+    background-color: red;
+    border: none;
+    color:white;
+    padding:10px 20px;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    filter:  brightness(1);
+}
+#prev{
+    left: 20%;
+}
+#next{
+    right: 20%;
+}  
