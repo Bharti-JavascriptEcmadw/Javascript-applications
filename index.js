@@ -95,6 +95,18 @@ console.log(arr1);
 
 let sho =function abc(){
   console.log("hell")
-}
+}  
+// sho();
 // sho();
 console.log(sho);
+
+
+let f= function add (nn,mm){
+  // console.log(n+m);
+  return (mm+nn);
+
+};
+ let s =f(1,3);
+
+
+console.log(s)
