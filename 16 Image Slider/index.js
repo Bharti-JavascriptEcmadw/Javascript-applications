@@ -29,7 +29,7 @@ function update(){
     timer=setTimeout(()=>{
         x=x+45;
         update()
-    },3000)
+    },5000)
     
  
 }   

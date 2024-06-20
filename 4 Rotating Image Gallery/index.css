@@ -19,7 +19,7 @@ body{
     height:200px;
     
     transform-style: preserve-3d;
-    transform: perspective(3200px) rotateY(180deg);
+    transform: perspective(5000px) rotateY(180deg);
     /* background-color: red; */
     background-image: url('https://images.pexels.com/photos/2026960/pexels-photo-2026960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
@@ -63,7 +63,8 @@ body{
     left:0;
     transform-origin: center;
     transform-style: preserve-3d;
-    transform: rotateY(calc( var(--i)*45deg)) translateZ(555px);
+    transform: rotateY(calc( var(--i)*45deg)) translateZ(355px);
+    /* here translate z is give distance between two span  */
     text-align: center;
 }
 .image-container span img{
