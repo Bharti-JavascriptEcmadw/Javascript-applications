@@ -1,77 +1,60 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-weight: bold;
-    /* font-size: 1px; */
 }
-body{
-    background-image:url("https://img.freepik.com/free-photo/wooden-shelf-tropical-forest-product-presentation-dark-green-background_41470-5139.jpg?w=740&t=st=1718362333~exp=1718362933~hmac=ad1f75935031042746bde8262b2efccb60390598eeb81e1679804f0a19c2f8fb");
+
+body {
+    background-image: url("https://img.freepik.com/free-photo/wooden-shelf-tropical-forest-product-presentation-dark-green-background_41470-5139.jpg?w=740&t=st=1718362333~exp=1718362933~hmac=ad1f75935031042746bde8262b2efccb60390598eeb81e1679804f0a19c2f8fb");
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
+    font-size: 16px; /* Base font size for responsiveness */
+}
 
-    
-}
-.box{
-    width: 600px;
-    height: 300px;
-    /* border:2px solid black; */
+.box {
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 600px; /* Maximum width for larger screens */
+    height: auto; /* Adjusted height to allow content to expand */
     padding: 30px;
-    /* background-image: url("https://img.freepik.com/free-photo/lone-tree_181624-46361.jpg"); */
     text-align: center;
-    box-shadow:8px 8px 11px pink;
-    border-radius:8%;
-    /* background-color: rgb(11, 77, 152); */
-   /* background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00MjgtMDAzMC1rczA0dXNjcy5qcGc.jpg"); */
-   background-image: url('https://img.freepik.com/premium-photo/abstract-background-with-multicolored-crumpled-silk-satin_956363-18965.jpg?w=740');
- 
+    box-shadow: 8px 8px 11px pink;
+    border-radius: 8%;
+    background-image: url('https://img.freepik.com/premium-photo/abstract-background-with-multicolored-crumpled-silk-satin_956363-18965.jpg?w=740');
+    background-size: cover;
 }
-input{
+
+input {
     border-radius: 5px;
     border: none;
-    padding:10px;
+    padding: 10px;
+    font-size: 16px; /* Adjusted font size for inputs */
+    margin-bottom: 10px; /* Added margin for spacing */
 }
-h1{
-    color:rgb(10, 6, 8);
+
+h1 {
+    color: rgb(10, 6, 8);
     font-weight: bold;
+    font-size: 28px; /* Adjusted font size for headings */
 }
-input[type="button"]{
+
+input[type="button"] {
     background-color: aqua;
-    /* padding: 20px; */
-    font-size: 22px;
+    font-size: 18px; /* Adjusted font size for buttons */
+    padding: 12px 24px; /* Adjusted padding for buttons */
     margin-top: 20px;
 }
-label{
+
+label {
     color: rgb(3, 3, 14);
-    font-size: 22px;
+    font-size: 18px; /* Adjusted font size for labels */
     font-weight: bold;
 }
-button{
-    font-size: 22px;
+
+p {
+    font-size: 20px; /* Adjusted font size for age display */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

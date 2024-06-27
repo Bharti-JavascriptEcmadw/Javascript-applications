@@ -1,60 +1,63 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-body{
+
+body {
     background-image: url('https://rukminim2.flixcart.com/image/850/1000/kxxl9jk0/poster/b/g/l/small-1tnnqyns-leaves-light-green-background-wallpaper-poster-vp-original-imaga9xskywbqaxv.jpeg?q=90&crop=false');
-    /* background-image: url("https://facts.net/wp-content/uploads/2021/12/christmas-tree-in-winter-730x375.jpg"); */
-    /* background-image: linear-gradient(rgb(222, 113, 131),rgb(181, 181, 172),rgb(30, 30, 57),rgb(4, 7, 4)); */
-    background-size:50% 100%;
+    background-size: cover; /* Ensures background image covers the entire viewport */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 100vw; */
     height: 100vh;
+    font-size: 16px; /* Base font size for responsiveness */
 }
-.main{
-    width:35vw;
-    height: 40vh;
+
+.main {
+    width: 80%; /* Adjusted width for responsiveness */
+    max-width: 600px; /* Maximum width to maintain readability */
+    height: auto; /* Adjusted height to fit content */
     padding: 40px;
     background-color: rgb(18, 7, 48);
     box-shadow: 0px 2px 4px 5px rgb(9, 8, 16);
-    border-radius: 10%;
-    
-}
-.main h2{
-    color:#f3e0e0;
-    font-size: 40px;
+    border-radius: 10px;
     text-align: center;
-   
-
 }
-.main .clock{
+
+.main h2 {
+    color: #f3e0e0;
+    font-size: 36px; /* Adjusted font size */
+    margin-bottom: 20px; /* Added margin for spacing */
+}
+
+.main .clock {
     display: inline-block;
-    padding: 50px;
-    margin-top:10px;
-    width: 80px;
+    padding: 20px;
+    margin-top: 10px;
+    width: 120px; /* Adjusted width */
     text-align: center;
-
-
 }
-.clock span{
+
+.clock span {
     display: block;
-    /* border: 1px solid black; */
 }
-#hour, #min, #sec{
-    width: 90px;
+
+#hour, #min, #sec {
+    width: 100px; /* Adjusted width */
+    height: 80px; /* Adjusted height */
     border-radius: 50%;
-    height: 60px;
     text-align: center;
-    line-height: 50px;
-    background-color:rgb(241, 252, 240);
-    font-size: 50px;
+    line-height: 80px; /* Center content vertically */
+    background-color: rgb(241, 252, 240);
+    font-size: 60px; /* Adjusted font size */
+    margin: 0 auto; /* Center horizontally */
 }
-.text{
-    padding:5px;
-    font-size: 30px;
-    color:white;
-     text-align: center;
+
+.text {
+    font-size: 24px; /* Adjusted font size */
+    color: white;
+    text-align: center;
+    margin-top: 10px; /* Added margin for spacing */
 }

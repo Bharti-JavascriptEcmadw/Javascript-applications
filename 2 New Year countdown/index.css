@@ -1,45 +1,66 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
     background-image: url("https://img.freepik.com/premium-psd/christmas-background_908673-745.jpg");
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-}
-
-.main{
+    margin: 0;
+  }
+  
+  .main {
     border: 2px solid black;
     margin: auto;
     width: 500px;
     height: 50vh;
-    /* background-color: aqua; */
     background-image: url("https://marketplace.canva.com/EAE6izFw84Q/1/0/800w/canva-black-minimalist-linktree-background-7ei7kHti8PY.jpg");
-    /* display: flex; */
-    /* align-items: center; */
     color: white;
-    /* justify-content: center; */
     text-align: center;
     border-radius: 10% 20% 3%;
-}
-.header2{
+  }
+  
+  .header2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 20px; */
     margin: 20px;
-}
-.header1{
+  }
+  
+  .header1 {
     font-size: 38px;
-
-}
-.box1{
+  }
+  
+  .box1 {
     padding: 10px;
     font-size: 30px;
     background-color: rgb(160, 23, 175);
     margin: 10px;
     border-radius: 20%;
-}
-.head1{
+  }
+  
+  .head1 {
     margin-top: 5px;
-    /* border: 1px solid white; */
-    /* background-color: red; */
-}
+  }
+  
+  @media screen and (max-width: 768px) {
+    .main {
+      width: 90%;
+      max-width: 90%;
+      height: auto;
+      margin: 10px;
+    }
+  
+    .header1 {
+      font-size: 28px;
+    }
+  
+    .box1 {
+      font-size: 24px;
+    }
+  }
+  

@@ -24,8 +24,9 @@
 
 function getData(){
 	const dwivedi =search.value;
-	const url = 'https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city='+dwivedi
-const options = {
+	const url = 'https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?Country=dwivedi';
+
+   const options = {
 	method: 'GET',
 	headers: {
 		'X-RapidAPI-Key': 'ef960a3673mshd2380ad66cacb42p1a6765jsne801b1963925',
@@ -42,11 +43,7 @@ async function efd(){
 	temp.innerHTML = result.temp;
 	console.log(result.temp)
 			th.innerHTML = result.wind_speed;
-		    h.innerHTML = result.humidity
-			;
-	
-	
-     } 
+		    h.innerHTML = result.humidity;  } 
  catch (error) {
 	console.error(error);
 			

@@ -1,44 +1,46 @@
-*{
+* {
     margin: 0;
-    padding: 0;font-family: cursive;
+    padding: 0;
     box-sizing: border-box;
-
+    font-family: cursive;
 }
 
-body{
-    /* background-color: royalblue; */
+body {
     background-image: url("https://t4.ftcdn.net/jpg/05/49/86/39/360_F_549863991_6yPKI08MG7JiZX83tMHlhDtd6XLFAMce.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-size: 16px; /* Base font size for responsiveness */
 }
-.box{
+
+.box {
     background-color: rgb(84, 42, 42);
-    height: fit-content;
-    width: fit-content;
-    padding: 80px;
-    border-radius: 60px 10px;
-    box-shadow: 20px 15px 15px rgb(229, 14, 125);
-}
-.heading{
-    color:red;
+    padding: 40px;
+    border-radius: 40px;
+    box-shadow: 10px 8px 8px rgb(229, 14, 125);
     text-align: center;
-    font-size: 40px;
+    max-width: 80%; /* Ensures box does not exceed 80% of the viewport width */
 }
-.head{
-    text-align: center;
-    /* margin-left:20px; */
-    padding: 20px;
-    font-size: 40px;
+
+.heading {
+    color: red;
+    font-size: 28px; /* Adjusted font size for heading */
+    margin-bottom: 20px; /* Added margin for spacing */
 }
-button{
-    border: none;
-    outline: none;
-    font-size: 20px;
-    padding: 10px;
-    color:blue;
-    margin:15px;
+
+.head {
+    font-size: 48px; /* Increased font size for stopwatch display */
+    margin-bottom: 20px; /* Added margin for spacing */
+}
+
+button {
+    font-size: 18px; /* Adjusted font size for buttons */
+    padding: 12px 24px; /* Adjusted padding for buttons */
+    color: blue;
     background-color: yellowgreen;
+    border: none;
     border-radius: 15px;
+    margin: 10px;
 }
+

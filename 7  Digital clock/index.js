@@ -3,6 +3,9 @@
 // const secel=document.getElementById("sec");
 // const ampmel=document.getElementById("ampm");  
 // console.log(minel);
+
+document.addEventListener("DOMContentLoaded", function() {
+
 function update(){
     let h=new Date().getHours();
     let m=new Date().getMinutes();
@@ -20,9 +23,12 @@ function update(){
     hour.innerHTML=h;
     min.innerHTML=m;
     sec.innerHTML=s;
-    amm.innerHTML=ampm;
+    // amm.innerHTML=ampm;
     setTimeout(()=> {
      update()
     },1000)
 }
 update();
+
+}
+)
