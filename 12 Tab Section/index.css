@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: #f5abc9;
+    background: #2873ed;
     color: grey;
   }
   
@@ -30,7 +30,7 @@ body {
     height: 30rem;
   }
   .tabs {
-    background: #ffe5e2;
+    background: #d8f74c;
     border-radius: 0.5rem;
     grid-template-rows: auto 1fr;
   }
@@ -48,7 +48,7 @@ body {
     padding: 1rem 0;
     border: none;
     font-size: 1rem;
-    background: #b6c9f0;
+    background: #ea3af0;
     cursor: pointer;
     transition: all 0.3s linear;
     letter-spacing: 0.25rem;
