@@ -3,20 +3,27 @@ body {
         margin: 0;
         padding: 0;
         width: 100%;
+        /* background-image: url('https://w0.peakpx.com/wallpaper/246/306/HD-wallpaper-spring-flower-frame-apple-blossom-blue-wooden-background-white-flowers-wooden-texture-floral-frame-thumbnail.jpg'); */
         height: 100vh;
+        background-color: aqua;
       }
       .center {
-        width: 100%;
+        max-width: 1200px;
+        /* border: 2px solid yellow; */
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        margin: auto;
       }
       .book {
-        width: 400px;
-        height: 300px;
+        width: 500px;
+        height: 500px;
         position: relative;
+        /* border: 2px solid yellow; */
+        margin: auto;
+        left: 180px;
       }
       .pages {
         width: 100%;
@@ -24,17 +31,18 @@ body {
         position: relative;
       }
       .page {
-        width: 380px;
-        height: 270px;
+        width: 450px;
+        height:500px;
         position: absolute;
-        top: 0;
-        left: 0;
+        top:0px;
+        left:0px;
+        /* margin: auto; */
         border-radius: 7mm;
         margin: 0 6px;
         transform-style: preserve-3d;
         transform-origin: left;
         transition: 0.25s;
-        box-shadow: 1px 2px 0 0 rgba(0, 0, 0, 0.15),
+        box-shadow: 12px 22px 0 0 rgba(0, 0, 0, 0.15),
           1px 3px 1px 0 rgba(0, 0, 0, 0.1);
       }
       .page-side {
@@ -42,6 +50,7 @@ body {
         height: 100%;
         box-sizing: border-box;
         padding: 20px 30px;
+        /* border: 2px solid yellow; */
         display: flex;
         align-items: flex-start;
         justify-content: center;
@@ -52,6 +61,7 @@ body {
         top: 0;
         left: 0;
         backface-visibility: hidden;
+        margin: auto;
       }
       .page-head {
         width: 100%;
@@ -61,15 +71,15 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        font-size: 40px;
-        font-weight: 500;
+        font-size: 50px;
+        font-weight: 900;
       }
       .page-subtitle {
-        font-size: 12px;
+        font-size: 22px;
         font-weight: 300;
       }
       .page-content {
-        flex-grow: 1;
+        flex-grow: 2;
         font-size: 14px;
         display: flex;
         align-items: flex-end;
@@ -88,18 +98,19 @@ body {
         height: 20px;
         line-height: 20px;
         text-align: center;
-        color: rgb(40, 40, 40);
-        background: white;
+        color: #a60202;
+        background: rgb(117, 124, 225);
         border-radius: 3mm;
       }
       .front {
-        background: rgb(255, 228, 130);
+        /* background: rgb(212, 103, 159); */
+     background-image: url('https://freerangestock.com/sample/115638/flower-background--pink-frame.jpg');
         color: rgb(40, 40, 40);
         padding-left: 40px;
       }
       .back {
         background: rgb(40, 40, 40);
-        color: white;
+        color: rgb(235, 142, 142);
         padding-right: 40px;
         transform: rotateY(180deg);
       }
@@ -128,14 +139,17 @@ body {
         height: fit-content;
         display: flex;
         align-items: center;
+        position: relative;
+        bottom: 20px;
+        left: 165px;
         justify-content: space-between;
       }
       .controls button {
-        background: white;
+        background: rgb(231, 203, 203);
         width: 40px;
         height: 40px;
         border: 0.4mm solid rgb(40, 40, 40);
-        border-radius: 50%;
+        border-radius: 30%;
         outline: none;
         display: flex;
         align-items: center;

@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", function() {
+
+
 function setIndex() {
     let pages = document.querySelectorAll(".page");
     for (var i = 0; i < pages.length; i++) {
@@ -30,4 +33,4 @@ function setIndex() {
     if (nextSib) {
       nextSib.className = "page active";
     }
-  }
+  }})
